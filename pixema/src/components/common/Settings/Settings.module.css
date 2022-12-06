@@ -1,0 +1,140 @@
+.settingsWrapper {
+    width: 100%;
+    padding-right: 306px;
+}
+
+.profileTitle,
+.passwordTitle,
+.colorModeTitle {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.profileInputs,
+.passwordInputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    background: #242426;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.nameInput,
+.emailInput,
+.passwordInput,
+.newPasswordInput,
+.confirmPasswordInput {
+    padding: 16px 0 16px 20px;
+    max-width: 533px;
+    width: 100%;
+}
+
+.settingsPassword {
+    margin: 40px 0;
+}
+
+.passwordInputsLeft,
+.passwordInputsRight {
+    width: 100%;
+}
+
+.passwordInputsRight {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.colorModeContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242426;
+    padding: 24px 40px;
+    border-radius: 10px;
+}
+
+.text,
+.colorModeDescription {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.colorModeDescription {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.text {
+    padding-top: 4px;
+    font-weight: 500;
+    color: #AFB2B6;
+}
+
+.colorModeToggle {
+    position: relative;
+    width: 32px;
+    height: 20px;
+}
+
+.lightTitle {
+    color: #323537;
+}
+
+.light {
+    background: #AFB2B6;
+}
+
+.lightText {
+    color: #323537;
+}
+
+@media screen and (max-width: 1440px) {
+    .settingsWrapper {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .colorModeContent {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .profileTitle,
+    .passwordTitle,
+    .colorModeTitle {
+        font-size: 20px;
+        line-height: 32px;
+        padding-bottom: 18px;
+    }
+
+    .profileInputs,
+    .passwordInputs {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 24px;
+        min-width: 276px;
+    }
+
+    .settingsPassword {
+        margin: 32px 0;
+    }
+
+    .passwordInputsRight {
+        gap: 20px;
+    }
+
+    .colorModeContent {
+        padding: 24px;
+    }
+}

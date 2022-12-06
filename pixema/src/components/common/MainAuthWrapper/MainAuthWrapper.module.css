@@ -1,0 +1,25 @@
+.mainAuthWrapper {
+    background: black url("../../../assets/Frame 1439.png") no-repeat center/cover;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    margin: 0 auto;
+    width: 574px;
+    border-radius: 10px;
+    background: #242426;
+}
+
+@media screen and (max-width: 786px) {
+    .container {
+        max-width: 83%;
+    }
+}

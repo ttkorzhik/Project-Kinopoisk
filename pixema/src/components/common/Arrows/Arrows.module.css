@@ -1,0 +1,17 @@
+.arrows {
+    display: flex;
+    gap: 22px;
+    cursor: pointer;
+}
+
+.arrow {
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    filter: invert(77%) sepia(7%) saturate(150%) hue-rotate(175deg) brightness(92%) contrast(89%);
+}
+
+.arrow:disabled {
+    filter: invert(54%) sepia(5%) saturate(406%) hue-rotate(172deg) brightness(95%) contrast(89%);
+}

@@ -1,0 +1,96 @@
+.topText {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.form div + div {
+    margin-top: 24px;
+}
+
+.formInput {
+    padding: 16px 0 16px 20px;
+    max-width: 494px;
+    width: 100%;
+}
+
+.forgotPassword {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: unset;
+    color: #80858B;
+}
+
+.forgotPassword:hover {
+    color: #917CFF;
+}
+
+.submitButton {
+    width: 100%;
+    margin-top: 40px;
+    padding: 16px 0;
+}
+
+.bottomText {
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text {
+    color: #80858B;
+}
+
+.link {
+    text-decoration: none;
+    color: #7B61FF;
+}
+
+.link:hover {
+    color: #917CFF;
+}
+
+.light {
+    color: #80858B;
+}
+
+.lightFormInput {
+    color: #242426;
+}
+
+.lightFormInput input {
+    padding: 16px 0 16px 20px;
+    max-width: 494px;
+    width: 100%;
+    border: 2px solid #AFB2B6;
+}
+
+@media screen and (max-width: 530px) {
+    .form div + div {
+        margin-top: 20px;
+    }
+
+    .submitButton {
+        margin-top: 32px;
+    }
+
+    .bottomText {
+        margin-top: 24px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

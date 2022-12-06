@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 144px;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 58px;
+}
+
+.link:hover {
+    color: #7B61FF;
+}
+
+.light {
+    color: #323537;
+}

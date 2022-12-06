@@ -1,0 +1,136 @@
+.primary,
+.secondary,
+.secondaryLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.primary {
+    background: #7B61FF;
+}
+
+.primary:hover {
+    background: #917CFF;
+}
+
+.secondary {
+    background: #323537;
+}
+
+.secondary:hover {
+    color: #AFB2B6;
+}
+
+.secondaryLight {
+    background: #AFB2B6;
+    color: #242426;
+}
+
+.secondaryLight:hover {
+    color: #FFFFFF;
+}
+
+.primary:disabled,
+.secondary:disabled,
+.secondaryLight:disabled {
+    background: #80858B;
+    color: #AFB2B6;
+}
+
+.forIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.forPagination,
+.forPaginationLight {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px;
+    color: #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+.forPagination {
+    background: #323537;
+}
+
+.forPaginationLight {
+    background: #AFB2B6;
+}
+
+.forPagination:hover,
+.forPaginationLight:hover {
+    color: #917CFF;
+}
+
+.forPagination:disabled,
+.forPaginationLight:disabled {
+    color: #AFB2B6;
+    background: #80858B;
+}
+
+.forSelectedFilm {
+    background: #323537;
+    width: 132px;
+    height: 56px;
+    cursor: pointer;
+    border: unset;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1280px) {
+    .forPagination,
+    .forPaginationLight {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .forPagination,
+    .forPaginationLight {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .forPagination,
+    .forPaginationLight {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .forSelectedFilm {
+        width: 135.5px;
+    }
+}

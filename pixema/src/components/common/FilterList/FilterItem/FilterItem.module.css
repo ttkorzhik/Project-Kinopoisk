@@ -1,0 +1,43 @@
+.filterItem,
+.light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 8px 24px;
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filterItem {
+    background-color: #323537;
+}
+
+.light {
+    background-color: #AFB2B6;
+}
+
+.svg,
+.lightSvg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.lightSvg {
+    fill: #FFFFFF;
+}
+
+.filterItem:hover .svg,
+.light:hover .lightSvg {
+    fill: #917CFF;
+}

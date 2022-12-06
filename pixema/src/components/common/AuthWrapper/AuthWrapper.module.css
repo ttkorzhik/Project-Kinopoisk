@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.light {
+    background: #FFFFFF;
+}
+
+@media screen and (max-width: 530px) {
+    .wrapper {
+        padding: 24px;
+    }
+}

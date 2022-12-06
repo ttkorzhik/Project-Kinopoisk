@@ -1,0 +1,46 @@
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #80858B;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text {
+    padding: 0;
+    margin: 0;
+}
+
+.link:hover .svg,
+.link:hover {
+    color: #917CFF;
+    fill: #917CFF;
+}
+
+.active .svg,
+.active {
+    color: #7B61FF;
+    fill: #7B61FF;
+}
+
+.link:disabled .svg,
+.link:disabled {
+    color: #323537;
+    fill: #323537;
+}
+
+.svg {
+    fill: #80858B;
+    width: 24px;
+    height: 24px;
+}

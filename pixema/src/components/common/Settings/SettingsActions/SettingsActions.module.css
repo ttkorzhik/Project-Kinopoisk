@@ -1,0 +1,43 @@
+.actionsWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding-top: 48px;
+}
+
+.buttonCancel,
+.buttonSave {
+    max-width: 266px;
+    width: 100%;
+    height: 56px;
+}
+
+@media screen and (max-width: 768px) {
+    .actionsWrapper {
+        justify-content: center;
+        gap: 33px;
+    }
+
+    .buttonCancel,
+    .buttonSave {
+        max-width: 328px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .actionsWrapper {
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding-top: 40px;
+    }
+
+    .buttonCancel,
+    .buttonSave {
+        max-width: 270px;
+        width: 100%;
+    }
+}

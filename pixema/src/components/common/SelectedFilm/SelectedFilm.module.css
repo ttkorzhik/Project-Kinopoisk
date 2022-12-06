@@ -1,0 +1,168 @@
+.selectedFilm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 42px;
+    width: 100%;
+}
+
+.poster {
+    display: block;
+    object-fit: cover;
+    width: 266px;
+    height: 356px;
+    border-radius: 20px;
+}
+
+.selectedFilmGenre {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB2B6;
+}
+
+.selectedFilmTitle {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.selectedFilmMarkers {
+    padding: 26px 0 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.ratings,
+.yellow,
+.red,
+.imdb,
+.runTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.ratings,
+.yellow,
+.red {
+    width: 37px;
+    height: 28px;
+}
+
+.ratings {
+    background: #00A340;
+}
+
+.yellow {
+    background: #F3A608;
+}
+
+.red {
+    background: #F45D2D;
+}
+
+.imdb,
+.runTime {
+    padding: 2px 8px;
+    background: #323537;
+}
+
+.imdb {
+    gap: 10px;
+}
+
+.selectedFilmPlot {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 878px;
+    width: 80%;
+}
+
+.selectedFilmDescription {
+    padding: 40px 0 36px;
+}
+
+.light {
+    color: #242426;
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+}
+
+.recommendHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+    .selectedFilmPlot {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .selectedFilm {
+        gap: 32px;
+    }
+
+    .poster {
+        width: 208px;
+        height: 278px;
+    }
+
+    .selectedFilmTitle {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .selectedFilm {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .selectedFilmTitle {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .selectedFilmMarkers {
+        padding: 20px 0 32px;
+    }
+
+    .selectedFilmLeftSide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .poster {
+        width: 272px;
+        height: 364px;
+    }
+}

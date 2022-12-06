@@ -1,0 +1,26 @@
+.burgerBlock,
+.burgerBlockLeft {
+    margin-left: 32px;
+    background: #7B61FF;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 22px 0 21px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.burgerBlockLeft {
+    margin-right: 0;
+}
+
+.burger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

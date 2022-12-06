@@ -1,0 +1,28 @@
+.tableHeader,
+.tableData {
+    padding-bottom: 20px;
+}
+
+.tableHeader {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB2B6;
+    padding-right: 54px;
+    vertical-align: top;
+}
+
+.tableData {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.light {
+    color: #242426;
+}

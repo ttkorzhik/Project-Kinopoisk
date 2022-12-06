@@ -1,0 +1,18 @@
+.logo {
+    align-self: flex-start;
+    padding: 48px 0 91px 62px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        padding: 47px 0 105px 40px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .logo {
+        align-self: center;
+        padding: 32px 0 48px;
+    }
+}

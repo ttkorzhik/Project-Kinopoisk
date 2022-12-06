@@ -1,0 +1,163 @@
+.filmWrapper {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.block {
+    position: relative;
+    border-radius: 20px;
+}
+
+.filmImg {
+    display: block;
+    object-fit: cover;
+    width: 266px;
+    height: 357px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.trendsRatingBlock {
+    border-radius: 6px;
+    padding: 0 8px 0 11px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #7B61FF;
+    color: #FFFFFF;
+}
+
+.trendsRating {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.filmRating,
+.yellow,
+.red {
+    border-radius: 6px;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.filmRating {
+    background: #00A340;
+    color: #FFFFFF;
+    border: none;
+}
+
+.yellow {
+    background: #F3A608;
+    color: #FFFFFF;
+}
+
+.red {
+    background: #F45D2D;
+    color: #FFFFFF;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #323537;
+    border-radius: 6px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.favorite:hover img {
+    filter: brightness(0) invert(1);
+    transition: 0.3s;
+}
+
+.favoriteLight {
+    background: #80858B;
+}
+
+.filmTitle {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 24px 0 4px;
+    transition: 0.3s;
+    max-width: 266px;
+}
+
+.filmTitle:hover {
+    color: #7B61FF;
+}
+
+.filmGenre {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB2B6;
+    max-width: 266px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.light {
+    color: #242426;
+}
+
+@media screen and (max-width: 1280px) {
+    .filmImg {
+        width: 208px;
+        height: 279px;
+    }
+
+    .filmTitle {
+        max-width: 208px;
+    }
+
+    .filmGenre {
+        max-width: 208px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .filmImg {
+        width: 272px;
+        height: 365.05px;
+    }
+
+    .filmTitle {
+        max-width: 272px;
+    }
+
+    .filmGenre {
+        max-width: 272px;
+    }
+}

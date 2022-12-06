@@ -1,0 +1,89 @@
+.radioWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: 0.3s;
+    border: none;
+}
+
+.light {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: 0.3s;
+    border: none;
+}
+
+.light label,
+.radioWrapper label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 14px 0;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    user-select: auto;
+    transition: 0.3s;
+}
+
+.light label {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.radioWrapper label {
+    color: #80858B;
+    border: 2px solid #323537;
+}
+
+.radioWrapper input[type=radio],
+.light input[type=radio] {
+    display: none;
+}
+
+.radioWrapper:first-child label,
+.light:first-child label {
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+}
+
+.radioWrapper:last-child label,
+.light:last-child label {
+    border-radius: 0 10px 10px 0;
+}
+
+.radioWrapper input[type=radio]:checked + label {
+    background: #323537;
+    color: #FFFFFF;
+}
+
+.light input[type=radio]:checked + label {
+    background: #FFFFFF;
+    color: #242426;
+}
+
+.light label:hover {
+    color: #323537;
+}
+
+.radioWrapper label:hover {
+    color: #FFFFFF;
+}
+
+.radioWrapper input[type=radio]:disabled + label {
+    background: #242426;
+    color: #666;
+}
+
+.light input[type=radio]:disabled + label {
+    background: #242426;
+    color: #666;
+}

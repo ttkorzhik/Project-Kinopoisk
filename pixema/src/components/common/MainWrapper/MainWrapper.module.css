@@ -1,0 +1,104 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 62px 64px 62px;
+}
+
+.forMenu {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 280px 56px 40px;
+    overflow-x: auto;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 306px;
+    width: 100%;
+}
+
+.light {
+    background-color: #FFFFFF;
+}
+
+.dark {
+    background-color: #000000;
+}
+
+@media screen and (max-width: 1440px) {
+    .wrapper {
+        padding: 0 128px 64px 128px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        padding: 0 176px 56px 176px;
+    }
+
+    .main {
+        padding-left: 0;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 0 48px 56px 48px;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .wrapper {
+        padding: 0 40px 56px 40px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .wrapper {
+        padding: 0 24px 48px 24px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .forMenu {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 100vh;
+        width: 100%;
+        padding: 0 220px 56px 40px;
+        overflow-x: auto;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .forMenu {
+        padding: 0 195px 56px 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .forMenu {
+        padding: 0 220px 56px 24px;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

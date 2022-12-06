@@ -1,0 +1,51 @@
+.big,
+.small,
+.main,
+.mainLight {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.big {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.small {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.main,
+.mainLight {
+    align-self: flex-start;
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 40px;
+}
+
+.main {
+    color: #FFFFFF;
+}
+
+.mainLight {
+    color: #242426;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 723px) {
+    .main,
+    .mainLight {
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .big {
+        font-size: 20px;
+        line-height: 36px;
+    }
+}

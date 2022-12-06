@@ -1,0 +1,45 @@
+.userInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    transition: 0.3s;
+}
+
+.linkNoneDecoration {
+    text-decoration: none;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.userInfoText,
+.defaultText {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 144px;
+}
+
+.rotate {
+    display: block;
+    padding-right: 3px;
+    transform: scale(-1, -1);
+    transition: 0.3s;
+}
+
+.userImg {
+    display: block;
+    padding-right: 3px;
+}
+
+.light {
+    color: #323537;
+}

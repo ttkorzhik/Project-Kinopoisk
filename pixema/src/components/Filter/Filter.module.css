@@ -1,0 +1,156 @@
+.form,
+.light {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 40px;
+    overflow: auto;
+    height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    z-index: 25;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px 0 0 10px;
+}
+
+.form {
+    background: #242426;
+}
+
+.light {
+    background: #80858B;
+}
+
+.hidden {
+    display: none;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    width: 100%;
+}
+
+.close {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.svg {
+    fill: #AFB2B6;
+}
+
+.svgLight {
+    fill: #FFFFFF;
+}
+
+.radioLight {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.radio,
+.radioLight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0 32px 0;
+}
+
+.radio {
+    border-bottom: 1px solid #323537;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0 0 0;
+    gap: 24px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 87px;
+}
+
+.buttonClear {
+    padding: 16px 60px 14px 59px;
+}
+
+.inputTitleSort {
+    padding: 0;
+}
+
+.inputTitleSort input,
+.inputTitleSortDark {
+    padding: 14px 0 14px 20px;
+    width: 438px;
+}
+
+.buttonShow {
+    padding: 16px 50px 14px 51px;
+}
+
+@media screen and (max-width: 768px) {
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 31px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .form,
+    .light {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .numbers {
+        gap: 24px;
+    }
+
+    .top {
+        padding-bottom: 32px;
+    }
+
+    .radio,
+    .radioLight {
+        padding: 8px 0 24px 0;
+    }
+
+    .middle {
+        padding: 24px 0 0 0;
+        gap: 20px;
+    }
+
+    .inputTitleSort input,
+    .inputTitleSortDark {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 16px;
+    }
+}

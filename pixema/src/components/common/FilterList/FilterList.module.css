@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        margin-bottom: 32px;
+    }
+}

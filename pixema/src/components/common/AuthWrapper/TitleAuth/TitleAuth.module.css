@@ -1,0 +1,21 @@
+.title {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.light {
+    color: #242426;
+}
+
+@media screen and (max-width: 530px) {
+    .title{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+}

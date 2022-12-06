@@ -1,0 +1,188 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #FFFFFF;
+    gap: 8px;
+}
+
+.inputPrimary,
+.inputPrimaryLight {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: #323537;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.inputPrimary {
+    background: #323537;
+    color: #FFFFFF;
+}
+
+.inputPrimaryLight {
+    background: #FFFFFF;
+    color: #323537;
+}
+
+.inputForSearch,
+.inputForSearchLight {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    border-radius: 10px;
+    border: 2px solid #AFB2B6;
+    width: 100%;
+    cursor: pointer;
+}
+
+.inputForSearch {
+    background: #323537;
+    color: #FFFFFF;
+}
+
+.inputForSearchLight {
+    background: #FFFFFF;
+    color: black;
+}
+
+.forNumbersSort,
+.forNumbersSortLight {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    width: 199px;
+    display: flex;
+    cursor: pointer;
+}
+
+.forNumbersSort {
+    background: #323537;
+    color: #FFFFFF;
+}
+
+.forNumbersSortLight {
+    background: #FFFFFF;
+    color: #242426;
+}
+
+.forNumbersSortSecond,
+.forNumbersSortSecondLight {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0 14px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color: #FFFFFF;
+    width: 199px;
+    margin-top: 32px;
+    align-self: flex-end;
+}
+
+.forNumbersSortSecond {
+    background: #323537;
+}
+
+.forNumbersSortSecondLight {
+    background: #FFFFFF;
+}
+
+.forNumbersSort::-webkit-inner-spin-button,
+.forNumbersSortSecond::-webkit-inner-spin-button,
+.forNumbersSortLight::-webkit-inner-spin-button,
+.forNumbersSortSecond::-webkit-inner-spin-button,
+.forNumbersSortSecond::-webkit-inner-spin-button,
+.forNumbersSortSecond::-webkit-inner-spin-button,
+.forNumbersSortSecondLight::-webkit-inner-spin-button,
+.forNumbersSortSecond::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus,
+.inputForSearch:focus,
+input:focus-visible,
+.inputForSearch:focus-visible {
+    border: 2px solid #7B61FF;
+    outline: unset;
+}
+
+input:focus-visible:disabled {
+    border: none;
+}
+
+input:disabled,
+.inputForSearch:disabled {
+    background: #80858B;
+    border-radius: 10px;
+    color: #AFB2B6;
+}
+
+input::placeholder,
+.inputForSearch::placeholder {
+    color: #80858B;
+}
+
+.errorMessage {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5154;
+}
+
+.error {
+    border: 2px solid #FF5154;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 868px) {
+    .errorMessage {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .inputPrimary,
+    .inputPrimaryLight {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .forNumbersSort,
+    .forNumbersSortLight,
+    .forNumbersSortSecond,
+    .forNumbersSortSecondLight {
+        width: 100%;
+    }
+}

@@ -1,0 +1,61 @@
+.emptyLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 306px 0 0;
+}
+
+.emptyLabelImage {
+    display: block;
+    object-fit: cover;
+    width: 405px;
+    height: 360px;
+}
+
+.emptyLabelText {
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #80858B;
+}
+
+@media screen and (max-width: 1700px) {
+    .emptyLabel {
+        padding: 0 306px 0 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .emptyLabel {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .emptyLabelImage {
+        width: 336px;
+        height: 298px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .emptyLabel {
+        padding: 83px 0 0 0;
+    }
+
+    .emptyLabelImage {
+        width: 202px;
+        height: 180px;
+    }
+
+    .emptyLabelText {
+        padding-top: 24px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
